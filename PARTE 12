@@ -1,0 +1,10 @@
+INÍCIO
+LER numero
+SE (numero < 0) ENTÃO
+  ESCREVER "Negativo"
+SENÃO_SE ( numero == 0) ENTÃO
+   ESCREVER "Zero"
+SENÃO
+  ESCREVER "Positivo"
+ FIM_SE
+FIM
