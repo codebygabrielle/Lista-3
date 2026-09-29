@@ -1,0 +1,8 @@
+INÍCIO
+LER idade
+SE (idade >= 18) ENTÃO
+  ESCREVER "Maior de idade"
+SENÃO
+  ESCREVER "Menor de idade"
+ FIM_SE
+FIM 
