@@ -1,0 +1,9 @@
+INÍCIO 
+contador ← 1 
+
+ENQUANTO (contador <= 10) FAÇA 
+ESCREVER contador
+contador ← contador + 1
+ FIM_ENQUANTO
+
+FIM
