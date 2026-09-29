@@ -1,0 +1,5 @@
+INÍCIO
+LER c
+f ← (c * 9/5) + 32
+ESCREVER "De Celsius para Fahrenheit fica: ", f
+FIM
