@@ -1,0 +1,33 @@
+INÍCIO
+v1 ← 0
+v2 ← 0
+v3 ← 0
+
+LER voto
+
+ENQUANTO (voto != 0) FAÇA
+    SE (voto == 1) ENTÃO
+        v1 ← v1 + 1
+    SENÃO_SE (voto == 2) ENTÃO
+        v2 ← v2 + 1
+    SENÃO_SE (voto == 3) ENTÃO
+        v3 ← v3 + 1
+    SENÃO
+        ESCREVER "Voto inválido"
+    FIM_SE
+    LER voto
+FIM_ENQUANTO
+
+total ← v1 + v2 + v3
+
+SE (v1 > v2 E v1 > v3) ENTÃO
+    vencedor ← "Candidato 1"
+SENÃO_SE (v2 > v3) ENTÃO
+    vencedor ← "Candidato 2"
+SENÃO
+    vencedor ← "Candidato 3"
+FIM_SE
+
+ESCREVER v1, v2, v3, total, vencedor
+FIM
+
