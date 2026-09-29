@@ -1,0 +1,10 @@
+INÍCIO
+LER nome_produto
+LER quantidade
+LER preco
+valor_total ← quantidade * preço
+ESCREVER "Produto: ", nome_produto
+ESCREVER "Quantidade: ", quantidade
+ESCREVER "Preço unitário: ", preco
+ESCREVER "Valor total: ", valor_total
+FIM
