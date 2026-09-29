@@ -1,0 +1,31 @@
+INÍCIO
+LER numero1
+LER numero2
+LER operação
+
+SE (operação == "+") ENTÃO
+resultado ← numero1 + numero2
+ESCREVER "Resultado: ", resultado
+
+SENÃO_SE (operação == "-") ENTÃO
+resultado ← numero1 - numero2
+ESCREVER "Resultado: ", resultado
+
+SENÃO_SE (operação == "*") ENTÃO
+resultado ← numero1 * numero2
+ESCREVER "Resultado: ", resultado
+
+SENÃO_SE (operacao == "/") ENTÃO
+    SE (numero2 == 0) ENTÃO
+      ESCREVER "Divisão por zero"
+SENÃO 
+resultado ← numero1 / numero2
+ESCREVER "Resultado: ", resultado
+
+FIM_SE
+
+SENÃO
+    ESCREVER "Operação inválida!"
+  FIM_SE
+
+FIM
