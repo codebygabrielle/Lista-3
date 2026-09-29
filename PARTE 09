@@ -1,0 +1,6 @@
+INÍCIO
+LER distancia_km
+LER combustivel_litro
+consumo_medio ← distancia_km / combustivel_litro
+ESCREVER "Consumo do combustível: ", consumo_medio, " km/L"
+FIM
