@@ -1,0 +1,11 @@
+INÍCIO 
+ LER numero
+
+contador ← 1
+
+ENQUANTO (contador <=10) FAÇA 
+resultado ← numero * contador 
+ESCREVER numero, "x", contador, "=", resultado
+contador ← contador + 1
+ FIM_ENQUANTO
+FIM
