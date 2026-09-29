@@ -1,0 +1,18 @@
+INÍCIO
+LER litros
+LER preco
+
+bruto ← litros * preco
+
+SE (litros < 20) ENTÃO
+    desconto ← 0
+SENÃO_SE (litros <= 40) ENTÃO
+    desconto ← bruto * 0.03
+SENÃO
+    desconto ← bruto * 0.05
+FIM_SE
+
+final ← bruto - desconto
+
+ESCREVER bruto, desconto, final
+FIM
