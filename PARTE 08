@@ -1,0 +1,6 @@
+INÍCIO
+LER quantidade_horas 
+LER por_hora
+salario_bruto ← quantidade_horas * por_hora
+ESCREVER "Salário bruto: ", salario_bruto
+FIM
