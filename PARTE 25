@@ -1,0 +1,13 @@
+INÍCIO
+LER n
+
+soma ← 0
+contador ← 1
+
+ENQUANTO (contador <= n) FAÇA
+soma ← soma + contador 
+contador ← contador + 1
+FIM_ENQUANTO
+
+ESCREVER "Soma de 1 até ", n, ": ", soma
+FIM
