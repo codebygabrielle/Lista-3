@@ -1,0 +1,16 @@
+INÍCIO
+LER nota1
+LER nota2
+media ← (nota1 + nota2) / 2
+
+SE (media >= 7) ENTÃO
+ESCREVER "Média: ", media
+ESCREVER "Situação: Aprovado"
+SENÃO_SE (media >= 5) E (media < 7) ENTÃO
+ESCREVER "Média: ", media
+ESCREVER "Situação: Recuperação" 
+SENÃO (media < 5) ENTÃO 
+ESCREVER "Média: ", media
+ESCREVER "Situação: Reprovado"
+ FIM_SE
+FIM
