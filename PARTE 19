@@ -1,0 +1,15 @@
+INÍCIO 
+LER peso
+LER altura
+IMC ← peso / (altura * altura)
+
+SE (IMC < 18,5) ENTÃO
+ESCREVER "Abaixo do peso"
+SENÃO_SE (IMC >= 18,5) E (IMC <= 24,9) ENTÃO
+ESCREVER "Peso adequado"
+SENÃO_SE (IMC >= 25,0) E (IMC <= 29,9) ENTÃO
+ESCREVER "Sobrepeso"
+SENÃO
+ESCREVER "Obesidade"
+ FIM_SE 
+FIM
