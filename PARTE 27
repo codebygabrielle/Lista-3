@@ -1,0 +1,22 @@
+INÍCIO 
+
+aprovados ← 0
+reprovados ← 0
+
+PARA i ← 1 ATÉ 10 FAÇA
+LER nota
+
+SE (nota >= 7) ENTÃO 
+aprovados ← aprovados + 1 
+SENÃO
+reprovados ← reprovados + 1
+FIM_SE
+FIM_PARA
+
+percentualAprovacao ← (aprovados / 10) * 100
+
+ESCREVER "Quantidade de aprovados: ", aprovados
+ESCREVER "Quantidade de reprovados: ", reprovados 
+ESCREVER "Percentual de aprovação: ", percentualAprovacao, "%"
+
+FIM
