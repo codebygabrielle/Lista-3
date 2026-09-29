@@ -1,0 +1,18 @@
+INÍCIO
+LER valor_compra
+SE (valor_compra <= 100) ENTÃO
+desconto_percentual ← 0
+SENÃO_SE (valor_compra <= 500) ENTÃO
+desconto_percentual ← 5
+SENÃO
+desconto_percentual ← 10
+ FIM_SE  
+
+valor_desconto ← valor_compra * (desconto_percentual / 100)
+valor_final ← valor_compra - valor_desconto  
+
+ESCREVER "Valor original: ", valor_compra
+ESCREVER "Percentual desconto: ", desconto_percentual "%"
+ESCREVER "Valor desconto: ", valor_desconto 
+ESCREVER "Valor final: ", valor_final 
+FIM
