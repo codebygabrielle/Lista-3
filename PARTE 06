@@ -1,0 +1,6 @@
+INÍCIO
+LER raio
+pi ← 3.14159
+area ← pi * (raio * raio)
+ESCREVER "Área do círculo: ", area
+FIM
