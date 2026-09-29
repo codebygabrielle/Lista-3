@@ -1,0 +1,11 @@
+INÍCIO 
+contador ← 10
+
+ENQUANTO (contador >= 0) FAÇA
+ESCREVER contador 
+contador ← contador - 1
+ FIM_ENQUANTO
+
+ESCREVER "Fim da contagem!"
+
+FIM
