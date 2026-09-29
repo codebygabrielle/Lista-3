@@ -1,0 +1,7 @@
+INÍCIO
+LER numero1
+LER numero2
+LER numero3
+media ← (numero1 + numero2 + numero3) / 3
+ESCREVER "Média: ", media
+FIM
