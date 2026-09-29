@@ -1,0 +1,14 @@
+INÍCIO
+
+senhaCorreta ← 1234
+
+LER senha
+
+ENQUANTO senha ≠ senhaCorreta FAÇA
+    ESCREVER "Senha incorreta. Tente novamente."
+    LER senha
+FIM_ENQUANTO
+
+ESCREVER "Acesso autorizado."
+
+FIM
