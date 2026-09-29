@@ -1,0 +1,11 @@
+INÍCIO
+contador ← 2
+
+ENQUANTO (contador <= 100) FAÇA
+SE (contador % 2 == 0) ENTÃO
+ESCREVER contador 
+FIM_SE
+contador ← contador + 2
+FIM_ENQUANTO
+
+FIM
