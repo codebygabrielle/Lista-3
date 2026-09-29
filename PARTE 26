@@ -1,0 +1,14 @@
+INÍCIO
+LER quantidade_alunos
+ soma ← 0
+contador ← 1
+
+PARA i ← 1 ATÉ quantidade_alunos FAÇA
+LER nota
+soma ← soma + nota 
+FIM_PARA
+
+media ← soma /quantidade_alunos 
+ESCREVER "Média geral da turma: ", media 
+
+FIM
