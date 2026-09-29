@@ -1,0 +1,42 @@
+INÍCIO
+LER qtd
+
+i ← 1
+aprov ← 0
+recup ← 0
+reprov ← 0
+soma ← 0
+maior ← 0
+menor ← 10
+
+ENQUANTO (i <= qtd) FAÇA
+    LER nome
+    LER nota1
+    LER nota2
+
+    media ← (nota1 + nota2) / 2
+    soma ← soma + media
+
+    SE (media >= 7) ENTÃO
+        aprov ← aprov + 1
+    SENÃO_SE (media >= 5) ENTÃO
+        recup ← recup + 1
+    SENÃO
+        reprov ← reprov + 1
+    FIM_SE
+
+    SE (media > maior) ENTÃO
+        maior ← media
+    FIM_SE
+
+    SE (media < menor) ENTÃO
+        menor ← media
+    FIM_SE
+
+    i ← i + 1
+FIM_ENQUANTO
+
+mediaGeral ← soma / qtd
+
+ESCREVER qtd, aprov, recup, reprov, mediaGeral, maior, menor
+FIM
