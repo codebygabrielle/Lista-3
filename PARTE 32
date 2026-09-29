@@ -1,0 +1,14 @@
+INÍCIO
+LER entrada
+LER saida
+
+horas ← saida - entrada
+
+SE (horas <= 1) ENTÃO
+    valor ← 10
+SENÃO
+    valor ← 10 + (horas - 1) * 5
+FIM_SE
+
+ESCREVER horas, valor
+FIM
