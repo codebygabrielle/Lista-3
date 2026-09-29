@@ -1,0 +1,29 @@
+INÍCIO
+vendas ← 0
+itens ← 0
+faturamento ← 0
+maior ← 0
+
+ESCREVER "Existe venda a registrar? (S/N)"
+LER resposta
+
+ENQUANTO (resposta == "S") FAÇA
+    LER produto
+    LER quantidade
+    LER preco
+
+    total ← quantidade * preco
+    vendas ← vendas + 1
+    itens ← itens + quantidade
+    faturamento ← faturamento + total
+
+    SE (total > maior) ENTÃO
+        maior ← total
+    FIM_SE
+
+    ESCREVER "Existe venda a registrar? (S/N)"
+    LER resposta
+FIM_ENQUANTO
+
+ESCREVER vendas, itens, faturamento, maior
+FIM
