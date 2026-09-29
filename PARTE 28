@@ -1,0 +1,17 @@
+INÍCIO
+
+LER numero
+
+maior ← numero
+
+PARA i ← 2 ATÉ 10 FAÇA
+    LER numero
+
+    SE numero > maior ENTÃO
+        maior ← numero
+    FIM_SE
+FIM_PARA
+
+ESCREVER "O maior número é: ", maior
+
+FIM
