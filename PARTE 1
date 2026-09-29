@@ -1,0 +1,5 @@
+INÍCIO
+  LER nome
+  ESCREVER "Olá, ", nome, "! Seja bem-vindo(a) à disciplina de Lógica de Programação."
+  Mostrar resultado
+FIM
