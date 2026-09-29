@@ -1,0 +1,9 @@
+INÍCIO
+LER numero1
+LER numero2
+SE (numero1 > numero2) ENTÃO
+  ESCREVER numero1 "é maior"
+SENÃO 
+  ESCREVER numero2 "é maior"
+  FIM_SE
+FIM
