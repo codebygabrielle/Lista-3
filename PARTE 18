@@ -1,0 +1,12 @@
+LER idade
+
+SE (idade <= 12) ENTÃO
+ESCREVER "Criança"
+SENÃO_SE (idade >= 13) E (idade <= 17) ENTÃO
+ESCREVER "Adolescente"
+SENÃO_SE (idade >= 18) E (idade <= 59) ENTÃO
+ESCREVER "Adulto"
+SENÃO 
+ESCREVER "Idoso"
+ FIM_SE
+FIM
