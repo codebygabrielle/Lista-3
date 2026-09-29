@@ -1,0 +1,6 @@
+INÍCIO
+LER base
+LER altura
+area ← base * altura
+ESCREVER "Área: ", area
+FIM
