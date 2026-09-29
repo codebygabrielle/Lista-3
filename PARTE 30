@@ -1,0 +1,36 @@
+INÍCIO
+saldo ← 1000
+
+REPITA
+    ESCREVER "1. Consultar saldo"
+    ESCREVER "2. Depositar"
+    ESCREVER "3. Sacar"
+    ESCREVER "4. Sair"
+    LER opcao
+
+    SE (opcao == 1) ENTÃO
+        ESCREVER "Saldo atual: ", saldo
+
+    SENÃO_SE (opcao == 2) ENTÃO
+        LER valor
+        saldo ← saldo + valor
+        ESCREVER "Depósito realizado!"
+
+    SENÃO_SE (opcao == 3) ENTÃO
+        LER valor
+        SE (valor <= saldo) ENTÃO
+            saldo ← saldo - valor
+            ESCREVER "Saque realizado!"
+        SENÃO
+            ESCREVER "Saldo insuficiente!"
+        FIM_SE
+
+    SENÃO_SE (opcao == 4) ENTÃO
+        ESCREVER "Encerrando..."
+
+    SENÃO
+        ESCREVER "Opção inválida!"
+    FIM_SE
+
+ATÉ (opcao == 4)
+FIM
